@@ -31,3 +31,8 @@ Run `npm run lint` before opening a PR to keep the codebase tidy.
 ## Deployment
 
 Build artifacts live in `dist/` after running `npm run build`.
+## Contributing
+
+1. Create a feature branch from `main`.
+2. Keep commits focused and descriptive.
+3. Open a pull request with screenshots when UI changes are included.
