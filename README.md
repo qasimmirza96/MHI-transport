@@ -21,3 +21,7 @@ A Vite-powered frontend for the MHI Transport experience.
 
 - Node.js 18+ recommended.
 - Uses Vite for development and builds.
+## Development Notes
+
+- Keep UI text centralized in the `src` tree for easier updates.
+- Prefer small, focused components for screen-level layouts.
