@@ -25,3 +25,6 @@ A Vite-powered frontend for the MHI Transport experience.
 
 - Keep UI text centralized in the `src` tree for easier updates.
 - Prefer small, focused components for screen-level layouts.
+## Linting & Formatting
+
+Run `npm run lint` before opening a PR to keep the codebase tidy.
