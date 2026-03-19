@@ -12,3 +12,8 @@ A Vite-powered frontend for the MHI Transport experience.
 - `npm run build`: create the production build.
 - `npm run preview`: preview the production build locally.
 - `npm run lint`: run ESLint checks.
+## Project Structure
+
+- `index.html`: entry HTML.
+- `src/`: application source code.
+- `public/`: static assets served as-is.
