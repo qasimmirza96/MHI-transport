@@ -28,3 +28,6 @@ A Vite-powered frontend for the MHI Transport experience.
 ## Linting & Formatting
 
 Run `npm run lint` before opening a PR to keep the codebase tidy.
+## Deployment
+
+Build artifacts live in `dist/` after running `npm run build`.
