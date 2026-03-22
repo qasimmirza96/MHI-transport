@@ -11,6 +11,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 function Header({ isNav, setIsNav }) {
   const navigate = useNavigate();
   const location = useLocation();
+  const toggleNav = () => setIsNav((prev) => !prev);
   const handleLoginClick = () => {
     navigate("/contact");
   };
@@ -57,7 +58,17 @@ function Header({ isNav, setIsNav }) {
         </Link>
         <div
           className={isNav ? "change" : "menu"}
-          onClick={() => setIsNav(!isNav)}
+          onClick={toggleNav}
+          onKeyDown={(event) => {
+            if (event.key === "Enter" || event.key === " ") {
+              event.preventDefault();
+              toggleNav();
+            }
+          }}
+          role="button"
+          tabIndex={0}
+          aria-label="Toggle navigation"
+          aria-expanded={isNav}
         >
           <div className="bar1"></div>
           <div className="bar2"></div>
