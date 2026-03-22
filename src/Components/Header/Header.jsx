@@ -12,7 +12,6 @@ function Header({ isNav, setIsNav }) {
   const navigate = useNavigate();
   const location = useLocation();
   const handleLoginClick = () => {
-    console.log("hello");
     navigate("/contact");
   };
 
