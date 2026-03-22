@@ -1,4 +1,3 @@
-import React from "react";
 import "./homePage.scss";
 import Home from "../Components/Home/Home";
 import About from "../Components/About/About";
