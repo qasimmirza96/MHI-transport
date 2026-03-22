@@ -1,11 +1,10 @@
-import { Route, Router, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import HomePage from "./HomePage";
 import FrieghtBrokerage from "./ServicesPage/FrieghtBrokerage/FrieghtBrokerage";
 import FrieghtDispatch from "./ServicesPage/FrieghtDispatch/FrieghtDispatch";
 import Layout from "./Layout";
 import Pricing from "./Pricing/Pricing";
 import FAQs from "./FAQs/FAQs";
-import About from "../Components/About/About";
 import Contact from "./Contact/Contact";
 import AboutPage from "./AboutPage/AboutPage";
 import OrderCompleteCard from "../UI/OrderCompleteCard/OrderCompleteCard";
