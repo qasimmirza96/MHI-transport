@@ -1,5 +1,4 @@
 import "./header.scss";
-import React from "react";
 import { ReactSVG } from "react-svg";
 // import { Link } from "react-scroll";
 import PrimaryButton from "../../UI/PrimaryButton/PrimaryButton";
@@ -7,10 +6,11 @@ import { downVector, logo } from "../../assets/Index";
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 import { useMediaQuery } from "react-responsive";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 function Header({ isNav, setIsNav }) {
   const navigate = useNavigate();
+  const location = useLocation();
   const handleLoginClick = () => {
     console.log("hello");
     navigate("/contact");
