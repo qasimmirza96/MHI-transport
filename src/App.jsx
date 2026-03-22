@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import "./App.scss";
 
-import { Outlet, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import HomeRoutes from "./Pages/HomeRoutes";
 
 function App() {
