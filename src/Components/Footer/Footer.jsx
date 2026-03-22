@@ -1,4 +1,3 @@
-import React from "react";
 import "./footer.scss";
 import { ReactSVG } from "react-svg";
 import {
@@ -6,15 +5,12 @@ import {
   footerLogo,
   instaVector,
   linkedInVector,
-  logo,
 } from "../../assets/Index";
 import { Col, Row } from "antd";
 import { useMediaQuery } from "react-responsive";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-  //   const navigate = useNavigate();   onClick={() => navigate("/")}
-
   const mobileResponsive = useMediaQuery({
     query: "(max-width: 800px)",
   });
