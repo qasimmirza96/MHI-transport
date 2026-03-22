@@ -8,7 +8,6 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
   const navigate = useNavigate();
   const handleLoginClick = () => {
-    console.log("hello");
     navigate("/contact");
   };
   return (
